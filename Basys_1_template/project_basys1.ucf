@@ -1,0 +1,43 @@
+# clock pin for Basys rev E Board                                                                                                                        
+ NET "clk"      LOC = "P54"; # Bank = 2,  Pin name = IO_L5N_2/D3/GCLK31, Sch name = CLK1
+
+# onBoard 7seg display                                                                                                                        
+ NET "a_out"    LOC = "P25"; # Bank = 3, Pin name = IO_L8P_3,            Sch name = CA
+ NET "b_out"    LOC = "P16"; # Bank = 3, Pin name = IO_L5P_3/GCLK22,     Sch name = CB
+ NET "c_out"    LOC = "P23"; # Bank = 3, Pin name = IO_L7N_3/GCLK27      Sch name = CC
+ NET "d_out"    LOC = "P21"; # Bank = 3, Pin name = IO_L6N_3/GCLK25,     Sch name = CD
+ NET "e_out"    LOC = "P20"; # Bank = 3, Pin name = IO_L6P_3/GCLK24/TRDY2,Sch name = CE
+ NET "f_out"    LOC = "P17"; # Bank = 3, Pin name = IO_L5N_3/GCLK23/IRDY2,Sch name = CF
+ NET "g_out"    LOC = "P83"; # Bank = 1, Pin name = IO/VREF_1,           Sch name = CG
+ NET "p_out"        LOC = "P22"; # Bank = 3, Pin name = IO_L7P_3/GCLK26,  
+                                                                                                                        
+ NET "an[0]"     LOC = "P34"; # Bank = 3, Pin name = IO_L10P_3,           Sch name = AN1
+ NET "an[1]"     LOC = "P33"; # Bank = 3, Pin name = IO_L9N_3,            Sch name = AN2
+ NET "an[2]"     LOC = "P32"; # Bank = 3, Pin name = IO_L9P_3,            Sch name = AN3
+ NET "an[3]"     LOC = "P26"; # Bank = 3, Pin name = IO_L8N_3,            Sch name = AN4
+
+ # Buttons                                                                                                                        
+ NET "BTNB"    LOC = "P69"; # Bank = 2, Pin name = IP,                   Sch name = BTN0
+ NET "rst"    LOC = "P47"; # Bank = 2, Pin name = IP_L3P_2,             Sch name = BTN2
+ NET "BTNA"    LOC = "P41"; # Bank = 2, Pin name = IP,                   Sch name = BTN3
+
+ # Switches                                                                                                                        
+ NET "YB[0]"     LOC = "P38"; # Bank = 2, Pin name = IP,                  Sch name = SW0
+ NET "YB[1]"     LOC = "P36"; # Bank = 3, Pin name = IP,                  Sch name = SW1
+ NET "YB[2]"     LOC = "P29"; # Bank = 3, Pin name = IO(3S100E)/IP(3S250E),Sch name = SW2
+ NET "DIRA[0]"     LOC = "P24"; # Bank = 3, Pin name = IP                   Sch name = SW3
+ NET "DIRA[1]"     LOC = "P18"; # Bank = 3, Pin name = IP,                  Sch name = SW4
+ NET "YA[0]"     LOC = "P12"; # Bank = 3, Pin name = IP/VREF_3,           Sch name = SW5
+ NET "YA[1]"     LOC = "P10"; # Bank = 3, Pin name = IO(3S100E)/IP(3S250E),Sch name = SW6
+ NET "YA[2]"     LOC = "P6";  # Bank = 3, Pin name = IP,                  Sch name = SW7
+
+ #  Leds                                                                                                                        
+ NET "LEDB"    LOC = "P15"; # Bank = 3, Pin name = IO_L4N_3/GCLK21      Sch name = LD0
+ NET "LEDX[0]"    LOC = "P8";  # Bank = 3, Pin name = IO_L3N_3,            Sch name = LD2
+ NET "LEDX[1]"    LOC = "P7";  # Bank = 3, Pin name = IO_L3P_3,            Sch name = LD3
+ NET "LEDX[2]"    LOC = "P5";  # Bank = 3, Pin name = IO_L2N_3/VREF_3,     Sch name = LD4
+ NET "LEDX[3]"    LOC = "P4";  # Bank = 3, Pin name = IO_L2P_3,            Sch name = LD5
+ NET "LEDX[4]"    LOC = "P3";  # Bank = 3, Pin name = IO_L1N_3,            Sch name = LD6
+ NET "LEDA"    LOC = "P2";  # Bank = 3, Pin name = IO_L1P_3,            Sch name = LD7
+   
+         
